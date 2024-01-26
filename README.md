@@ -3,6 +3,9 @@
 ## Preparation
 To run this project you need to have Docker and TypeScript
 
+## My variant
+ 13 % 3 = 1
+
 ## How to use
 
 1. Clone Repo

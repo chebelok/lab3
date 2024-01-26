@@ -23,6 +23,6 @@ export class CurrencyController {
 
   @Delete(':id')
   remove(@Param('id') id: string) {
-    return this.currencyService.remove(+id);
+    return this.currencyService.remove(id);
   }
 }

@@ -49,7 +49,7 @@ export class CurrencyService {
     return currency;
   }
 
-  async remove(id: number) {
+  async remove(id: string) {
     const result = await this.currencyRepository.delete(id);
 
     if (!result.affected) {
